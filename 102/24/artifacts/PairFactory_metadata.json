@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "createPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pairAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "pairAddrs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/102/24/factory.sol": "PairFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/102/24/factory.sol": {
+			"keccak256": "0xcc739a0732a10ee897325eb86d9cd5383efd0c2b7fa3b4499cffcb91d3d26282",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6c4039a10ffee75d05d833e629d2b4877e6a15563b7ee3c3c6869b5002f7ac1",
+				"dweb:/ipfs/QmbesZX2cWwJwiNZCQUGgYcFFjXrnunMXeNZGSA1kPRk3B"
+			]
+		},
+		"wtfSolidity/102/24/pair.sol": {
+			"keccak256": "0x99b0b45cc43542c4f9d326107037e9ee8cd6266fe6ca1e43d64b9b47673bd0f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2dec292905cdaa01699613cc38c5c729d0d6c07514e308d169a81200736161e7",
+				"dweb:/ipfs/QmeZnzzjXFNNLTwnXLz3f97JVqrs8eYF4rvxp2CNAwPGqH"
+			]
+		}
+	},
+	"version": 1
+}

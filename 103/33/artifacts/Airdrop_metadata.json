@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "sum",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "_addresses",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "multiTransferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "receives",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "multiTransferToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/103/33/airdrop.sol": "Airdrop"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/103/31/IERC20.sol": {
+			"keccak256": "0x4ba8f0500a7e926b2273d5592c1d7e2c15036976dceb82f6a197f1eb7f8caa72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://304f15a63ad225ce5ce435f8d8b21336f632e5e96a7941e46308c6028d534bb5",
+				"dweb:/ipfs/QmUp1sRQ71yDBJFvzTYofCicZ23LfVDmPz77JkySN5pkz8"
+			]
+		},
+		"wtfSolidity/103/33/airdrop.sol": {
+			"keccak256": "0x6ff336677e8ce0dc1f50dd979db430179b1f390cd467552f9ec2f60caa92c49a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a62fb99a0535c467f509f845e5bad2f07270434d8957213ba275a70aee91c8b",
+				"dweb:/ipfs/QmcMDe6VodDM6kVhjzG3PSQ2fiXZ5RDjwyJxg2Cmqwmq9j"
+			]
+		}
+	},
+	"version": 1
+}

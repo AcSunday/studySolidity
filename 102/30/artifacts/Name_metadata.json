@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/102/30/try_catch.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/102/30/try_catch.sol": {
+			"keccak256": "0x1c7a99d87818383cfbeaed3da825960883828bf66a0c87cc9a4f79a431a1a43c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6620980ff543994b13459e6bfd7b7d785db2df54e838cd71022c9be97c7a3454",
+				"dweb:/ipfs/QmXjXfJEKAFqDrWSccHrmdBsM9h6iojDBh4jCVeCR2WD3d"
+			]
+		}
+	},
+	"version": 1
+}

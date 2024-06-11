@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_dividend",
+						"type": "uint256"
+					}
+				],
+				"name": "getExactDividedBy2And3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/101/101_13/inheritance1.sol": "Identifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/101/101_13/inheritance1.sol": {
+			"keccak256": "0x72869fe3b4d77e42233b2b477694c38488df0a4a0459bdf54b9616945f6cbe02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://931f42aa77ac82632a90e82310a1e1c9d0ad8eebcb449bef4fd6dfa8763580b2",
+				"dweb:/ipfs/QmUWw3sRXCkYMz5BR4EgQ986ELoFNxDMTvmycT9qdcgvMp"
+			]
+		}
+	},
+	"version": 1
+}

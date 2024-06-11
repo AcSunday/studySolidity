@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Other",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "callGetX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "callGetX2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXTransferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/102/21/call_other_contract.sol": "CallContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/102/21/call_other_contract.sol": {
+			"keccak256": "0x2f926d5a49c7b765cc6de3f816eaf0c07eacaee6cc792c7eb2451f7b2d1bafc5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6eeb7cb6508552e1f1759aa630cd7b6aaa343478bc236c71cbe5e6d271f4520",
+				"dweb:/ipfs/QmVAPR2hTdTUAd635FPaX5E83qQoqmZVWGEsfGz93MVPSS"
+			]
+		},
+		"wtfSolidity/102/21/other_contract.sol": {
+			"keccak256": "0x12e1117c10ccc06a32f4a9416ad557d2ff6fb839f31e6fbd9510e11f73bc8493",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a28d7c90159d171156f7c7866429210874283b0418bb6a3379ad266a0e97a7d5",
+				"dweb:/ipfs/QmXaP747fJAdfMpeqZ1JGtGgsiRVRx1ikoxt8YY8SbTTYY"
+			]
+		}
+	},
+	"version": 1
+}

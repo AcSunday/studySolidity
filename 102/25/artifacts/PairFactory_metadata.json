@@ -1,0 +1,145 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allPairs",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "calculateAddr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "predictedAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "create2Pair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pairAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/102/25/factory.sol": "PairFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/102/25/factory.sol": {
+			"keccak256": "0x210a041c8e7400d5ac8697918715144ee87df70bea61f06e172ccb4427519ff4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3c5cdb3433ac8c1903dffbb17de0386df1e152fea832fb924d7a3a3e5cce389",
+				"dweb:/ipfs/QmWtpNTMn7aXmudGwAAaQeyGAjQyFAQ6PFx5XtjoLVE5hx"
+			]
+		},
+		"wtfSolidity/102/25/pair.sol": {
+			"keccak256": "0x3f96a4abd18e3ddf2a85422a1e5b08c86eb78c392d3a03b6254073e68aaf8aa3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://64f384d51849159c68fbe01d8bf701df3c252841a191e22db2b578f30cffae3e",
+				"dweb:/ipfs/QmaHndULSofGKuni3ufGM87Rh3o1nvRvTqvTbSKCRGmw3k"
+			]
+		}
+	},
+	"version": 1
+}

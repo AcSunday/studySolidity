@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "getString1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/102/17/call.sol": "CallLib"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/102/17/call.sol": {
+			"keccak256": "0xac489e8cf15b87f61da7b5882bd168fad2599a3254e8d34a9331cfe184ebd0f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://73ca26182dc34d7846e1a07f03a09ade41188937f156bba0c7351ca6f3da93a9",
+				"dweb:/ipfs/QmZhuYQuPrpB9XNGRoYSBeTUKvrSp5b7s2bCTk2BCUC3Ps"
+			]
+		},
+		"wtfSolidity/102/17/lib.sol": {
+			"keccak256": "0x0b022ccd046f9a7e8716e253757d9c32b7ba093741fb2989b9d5b3411df96501",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77d10cc4237027d2730761718218a76a4571454a6c247fc460c486171b446415",
+				"dweb:/ipfs/QmNvHV1ufAcBzhvirvzf9eXzYVTACbYeujen9KjU43UkHZ"
+			]
+		}
+	},
+	"version": 1
+}

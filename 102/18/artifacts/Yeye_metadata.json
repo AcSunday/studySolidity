@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "say",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"wtfSolidity/102/18/Yeye.sol": "Yeye"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"wtfSolidity/102/18/Yeye.sol": {
+			"keccak256": "0x417cb2561d399a805c176faee73dd4f54d72d2e46c9743a8d01c94ff881560dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b0ef91447035c67246f9e4fb97511163e7d6a387eff916bf2773a116cbcce00e",
+				"dweb:/ipfs/QmPGps54sELC6Nd7NAB1mnfh2JXqdCobqb1gYwigvyLLMN"
+			]
+		}
+	},
+	"version": 1
+}
